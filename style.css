@@ -1,0 +1,88 @@
+@import url(style/font/font.css);
+@import url(style/font2/font2.css);
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3eae3;
+}
+
+    
+.color2{
+    color: #408870;
+}
+.bg-secound{
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius:20px ;
+    border-top-right-radius: 20px;
+}
+@media (max-width:768px){
+    .bg-secound{
+        background-color: rgb(255, 255, 255);
+        border-bottom-right-radius:20px ;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0px;
+    }
+}
+img{
+    height: 100%;
+}
+.round{
+    border-bottom-left-radius:20px ;
+    border-top-left-radius: 20px;
+}
+.hight{
+    height: 500px;
+}
+.pperfume{
+    font-family: myfont;
+    font-weight: 500;
+    margin-top: 25px;
+    color: rgba(56, 56, 56, 0.596);
+}
+.pgub{
+    font-family: myfont2;
+    font-size:50px;
+    font-weight: 600;
+    line-height: 50px;
+
+}
+button{
+    border: none;
+    background-color: #408870;
+    padding: 10px;
+    width: 100%;
+    border-radius: 7px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 500;
+
+}
+button:hover{
+    background-color: #093d2c;
+}
+.pexplain{
+    font-weight: 500;
+    color: rgba(56, 56, 56, 0.678);
+    font-family: myfont;
+}
+.greennum{
+    color: #408870;
+    font-family: myfont2;
+    font-weight: 600;
+    font-size: xx-large;
+
+}
+.dell{
+    color: rgba(56, 56, 56, 0.596)!important;
+    font-size: 14px;
+    font-family: myfont;
+    font-weight:500 ;
+}
+.imgg{
+    height:fit-content;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
